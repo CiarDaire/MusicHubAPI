@@ -1,0 +1,377 @@
+#%RAML 1.0
+title: Music Hub API
+version: "v1"
+baseUri: http://localhost:3000/
+
+/users:
+  /artists:
+    description: Collection of artists
+    get:
+      queryParameters:
+        artistName:
+          type: string
+          required: true
+          description: Name of solo artist or band
+      responses:
+        200:
+          body:
+            application/json:
+              example: |
+                {
+                  "artists": [
+                    {
+                      "artistId": "64fb10e10996a021a258831c",
+                      "artistName": "Delta Heavy"
+                    },
+                    {
+                      "artistId": "64fb164e0b404d777652378f",
+                      "artistName": "Lady Gaga"
+                    }
+                  ]
+                }
+    /{getArtist}:
+      get:
+        queryParameters:
+          artistName:
+            type: string
+            required: true
+            description: Name of solo artist or band
+          origin:
+            type: string
+            required: true
+            description: Where artist(s) from
+          yearStart:
+            type: number
+            required: true
+            description: Year they became active
+          genres:
+            required: true
+            type: array
+            items: string
+            description: Genres of music they cover
+          members:
+            required: false
+            type: array
+            items: string
+            description: Band members (not required for solo artists)
+          labels:
+            required: true
+            type: array
+            items: string
+            description: Record labels they have associated with
+        responses:
+          200:
+            body:
+              application/json:
+                example: |
+                  {
+                    "Delta Heavy": [
+                      {
+                        "artistId": "64fb10e10996a021a258831c",
+                        "artistName": "Delta Heavy",
+                        "origin": "London, England",
+                        "yearStart": 2009,
+                        "genres": [
+                          "Drum and Bass",
+                          "Dubstep",
+                          "Drumstep"
+                        ],
+                        "members": [
+                          "Ben Hall",
+                          "Simon James"
+                        ],
+                        "labels": [
+                          "RAM Records",
+                          "UKF",
+                          "Monstercat"
+                        ]
+                      }
+                    ],
+                    "Lady Gaga": [
+                      {
+                        "artistId": "64fb164e0b404d777652378f",
+                        "artistName": "Lady Gaga",
+                        "origin": "New York City, US",
+                        "yearStart": 2001,
+                        "genres": [
+                          "Electronic",
+                          "Dance",
+                          "Rock",
+                          "Pop",
+                          "Jazz"
+                        ],
+                        "labels": [
+                          "Def Jam",
+                          "Cherrytree",
+                          "KonLive",
+                          "Interscope",
+                          "Streamline"
+                        ]
+                      }
+                    ]
+                  }
+          404:
+            body:
+              application/json:
+                example: |
+                  {"message": "Artist not found."}
+          400:
+            body:
+              application/json:
+                example: |
+                  {"message": "Bad Request - Invalid data."}
+      put:
+        queryParameters:
+          artistName:
+            type: string
+            required: true
+            description: Name of solo artist or band
+          origin:
+            type: string
+            required: true
+            description: Where artist(s) from
+          yearStart:
+            type: number
+            required: true
+            description: Year they became active
+          genres:
+            required: true
+            type: array
+            items: string
+            description: Genres of music they cover
+          members:
+            required: false
+            type: array
+            items: string
+            description: Band members (not required for solo artists)
+          labels:
+            required: true
+            type: array
+            items: string
+            description: Record labels they have associated with
+          accessToken:
+            required: true
+            type: string
+            description: Access Token to connect
+        responses:
+          200:
+            body:
+              application/json:
+                example: |
+                  {"message": "Artist successfully updated."}
+          404:
+            body:
+              application/json:
+                example: |
+                  {"message": "Artist not updated."}
+          400:
+            body:
+              application/json:
+                example: |
+                  {"message": "Bad Request - Invalid data."}
+      /albums:
+        get:
+          queryParameters:
+            albumTitle:
+              type: string
+              required: true
+              description: Name of album
+          responses:
+            200:
+              body:
+                application/json:
+                  example: |
+                    {
+                      "albumId": "65007ce58e2ca36a7b3204d1",
+                      "albumTitle": "Paradise Lost"
+                    }
+        /{albumTitle}:
+          get:
+            queryParameters:
+              albumTitle:
+                type: string
+                required: true
+                description: Name of album
+              releaseYear:
+                type: integer
+                required: true
+                description: Year album was released
+              label:
+                required: true
+                type: array
+                items: string
+                description: Record label that released the album
+              songs:
+                required: true
+                type: array
+                items: string
+                description: Songs contained within the album
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: |
+                      {
+                        "Paradise Lost": [
+                          {
+                            "albumId": "65007ce58e2ca36a7b3204d1",
+                            "albumTitle": "Paradise Lost",
+                            "releaseYear": 2016,
+                            "label": "RAM Records",
+                            "songs": [
+                              "Ghost",
+                              "Punish My Love",
+                              "Cut Me",
+                              "Ascending",
+                              "Reborn",
+                              "White Flag",
+                              "Limbo"
+                            ]
+                          }
+                        ]
+                      }
+              404:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Album not found."}
+              400:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Bad Request - Invalid data."}
+          put:
+            queryParameters:
+              albumTitle:
+                type: string
+                required: true
+                description: Name of album
+              releaseYear:
+                type: integer
+                required: true
+                description: Year album was released
+              label:
+                required: true
+                type: array
+                items: string
+                description: Record label that released the album
+              songs:
+                required: true
+                type: array
+                items: string
+                description: Songs contained within the album
+              accessToken:
+                required: true
+                type: string
+                description: Access token to connect
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Album successfully updated."}
+              404:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Album not updated."}
+              400:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Bad Request - Invalid data."}
+          delete:
+            queryParameters:
+              accessToken:
+                required: true
+                type: string
+                description: Access Token to connect
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Album successfully deleted."}
+              404:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Album not deleted."}
+              400:
+                body:
+                  application/json:
+                    example: |
+                      {"message": "Bad Request - Invalid data."}
+          /songs:
+            get:
+              queryParameters:
+                songTitle:
+                  type: string
+                  required: true
+                  description: Name of song
+              responses:
+                200:
+                  body:
+                    application/json:
+                      example: |
+                        {
+                          "songId": "650082338e2ca36a7b3204d3",
+                          "songTitle": "White Flag"
+                        }
+            /{songTitle}:
+              get:
+                queryParameters:
+                  songTitle:
+                    type: string
+                    required: true
+                    description: Name of song
+                  length:
+                    type: string
+                    required: true
+                    description: Time length of song
+                responses:
+                  200:
+                    body:
+                      application/json:
+                        example: |
+                          {
+                            "White Flag": [
+                              {
+                                "songId": "650082338e2ca36a7b3204d3",
+                                "songTitle": "White Flag",
+                                "length": "3:03"
+                              }
+                            ]
+                          }
+                  404:
+                    body:
+                      application/json:
+                        example: |
+                          {"message": "Song not found."}
+                  400:
+                    body:
+                      application/json:
+                        example: |
+                          {"message": "Bad Request - Invalid data."}
+              delete:
+                queryParameters:
+                  accessToken:
+                    required: true
+                    type: string
+                    description: Access Token to connect
+                responses:
+                  200:
+                    body:
+                      application/json:
+                        example: |
+                          {"message": "Song successfully deleted."}
+                  404:
+                    body:
+                      application/json:
+                        example: |
+                          {"message": "Song not deleted."}
+                  400:
+                    body:
+                      application/json:
+                        example: |
+                          {"message": "Bad Request - Invalid data."}

@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "650b0c856996a082a4823e67"
+  },
+  "email": "samuelsmith@test.com",
+  "password": "$2b$10$gpD6LT53.ip11vnexXif7e/uD9rVwn84etCYfQdGuRT7m./7NZ5j2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650c785c60f5e60960b24fa4"
+  },
+  "email": "stefanigermanotta@test.com",
+  "password": "$2b$10$0K9tt6tqt7Elai.kPaSoKec0UHc3iO8Vz.US1em2BxQEuMSdTCqyS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650c78e660f5e60960b24fa7"
+  },
+  "email": "adeleadkins@test.com",
+  "password": "$2b$10$0w2.XcvagSN/mTSautf2Z.GcoHSeGIokJHmDDIsHJ0raMx6XvTtza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650c78f660f5e60960b24faa"
+  },
+  "email": "jelenahadid@test.com",
+  "password": "$2b$10$D49d6i1pSx.TSxaCFOR5/u5y6poQvphebcvKCpGJNmtYzV6k8DXj2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650d42aa6243d3b609e31e72"
+  },
+  "email": "ciarsmythe@test.com",
+  "password": "$2b$10$zFm4bXmw3MqSFPcCGdhRqOvbbptBCgml/t8eBreFIGkO31/1UcCN.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650d48c4cf080ef5c18036d0"
+  },
+  "email": "chequeplease@test.com",
+  "password": "$2b$10$4SNguUa.RC7eSzG.XZYfK.JIgtnaetqNY1si4KN1.jXj8BZAg31eC",
+  "__v": 0
+}]

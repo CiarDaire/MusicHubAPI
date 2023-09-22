@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "64fb10e10996a021a258831c"
+  },
+  "name": "Delta Heavy",
+  "origin": "London, England",
+  "yearStart": 2009,
+  "genres": [
+    "Drum and Bass",
+    "Dubstep",
+    "Drumstep"
+  ],
+  "members": [
+    "Ben Hall",
+    "Simon James"
+  ],
+  "labels": [
+    "RAM Records",
+    "UKF",
+    "Monstercat"
+  ]
+},
+{
+  "_id": {
+    "$oid": "650861fddd7c693c31877948"
+  },
+  "name": "Kidz in Space-Unupdated",
+  "origin": "Auckland, New Zealand",
+  "yearStart": 2008,
+  "genres": [
+    "Electronic",
+    "Dance",
+    "Alternative Hip Hop"
+  ],
+  "members": [
+    "Josh Fountain",
+    "Ashley Hughes",
+    "Mat Neshat"
+  ],
+  "labels": [
+    "Move The Crowd Records",
+    "Universal Music NZ"
+  ]
+},
+{
+  "_id": {
+    "$oid": "650935d159290396977a606a"
+  },
+  "name": "Cosmo Sheldrake",
+  "origin": "London, England",
+  "yearStart": 2014,
+  "genres": [
+    "Electronic",
+    "Indie",
+    "Baroque Pop",
+    "Folktronica"
+  ],
+  "labels": [
+    "Tardigrade Records",
+    "Transgressive Records"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509476a59290396977a606d"
+  },
+  "name": "Lady Googoo-gaga",
+  "origin": "New York City, US",
+  "yearStart": 2001,
+  "genres": [
+    "Electronic",
+    "Dance",
+    "Rock",
+    "Pop",
+    "Jazz"
+  ],
+  "labels": [
+    "Def Jam",
+    "Cherrytree",
+    "KonLive",
+    "Interscope",
+    "Streamline"
+  ]
+},
+{
+  "_id": {
+    "$oid": "650966ae59290396977a606f"
+  },
+  "name": "Muse",
+  "origin": "Teignmouth, Devon, England",
+  "yearStart": 1994,
+  "genres": [
+    "Alternative Rock",
+    "Progressive Metal",
+    "Electronic Rock"
+  ],
+  "members": [
+    "Matt Bellamy",
+    "Dominic Howard",
+    "Chris Wolstenholme"
+  ],
+  "labels": [
+    "Helium 3",
+    "Warner Music",
+    "A&E Records"
+  ]
+}]

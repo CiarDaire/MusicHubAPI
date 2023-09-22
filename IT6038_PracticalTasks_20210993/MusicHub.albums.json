@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  },
+  "albumTitle": "Paradise Lost- Updated",
+  "releaseYear": 2016,
+  "label": "RAM Records",
+  "artist": {
+    "$oid": "64fb10e10996a021a258831c"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b243bc30eaef9a16a8475"
+  },
+  "albumTitle": "Only in Dreams",
+  "releaseYear": 2019,
+  "label": "RAM Records",
+  "artist": {
+    "$oid": "64fb10e10996a021a258831c"
+  }
+},
+{
+  "_id": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  },
+  "albumTitle": "Episode 001: Chasing Hayley",
+  "releaseYear": 2009,
+  "label": "Universal Music",
+  "artist": {
+    "$oid": "650861fddd7c693c31877948"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c3f0f3b72ed799f31f087"
+  },
+  "albumTitle": "The Fame Monster",
+  "releaseYear": 2009,
+  "label": "UMG Recordings",
+  "artist": {
+    "$oid": "6509476a59290396977a606d"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c3f2c3b72ed799f31f088"
+  },
+  "albumTitle": "Wild Wet World",
+  "releaseYear": 2023,
+  "label": "Tardigrade Records",
+  "artist": {
+    "$oid": "650935d159290396977a606a"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c3f993b72ed799f31f089"
+  },
+  "albumTitle": "The Much Much How How and I",
+  "releaseYear": 2018,
+  "label": "Trangressive Records",
+  "artist": {
+    "$oid": "650935d159290396977a606a"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c3faf3b72ed799f31f08a"
+  },
+  "albumTitle": "The 2nd Law",
+  "releaseYear": 2012,
+  "label": "Warner Music",
+  "artist": {
+    "$oid": "650966ae59290396977a606f"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c3fe43b72ed799f31f08b"
+  },
+  "albumTitle": "The Resistance",
+  "releaseYear": 2009,
+  "label": "Warner Music",
+  "artist": {
+    "$oid": "650966ae59290396977a606f"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c40083b72ed799f31f08c"
+  },
+  "albumTitle": "Absolution",
+  "releaseYear": 2004,
+  "label": "A&E Records",
+  "artist": {
+    "$oid": "650966ae59290396977a606f"
+  }
+}]

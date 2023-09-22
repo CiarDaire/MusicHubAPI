@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8480"
+  },
+  "songTitle": "Conquer the Galaxy",
+  "length": "4:40",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8474"
+  },
+  "songTitle": "City of Dreams",
+  "length": "4:34",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8473"
+  },
+  "songTitle": "Event Horizon",
+  "length": "4:30",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8476"
+  },
+  "songTitle": "Limbo",
+  "length": "1:03",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8475"
+  },
+  "songTitle": "Punish my Love",
+  "length": "4:08",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8478"
+  },
+  "songTitle": "Tremors",
+  "length": "3:08",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3ec1"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8482"
+  },
+  "songTitle": "A.I",
+  "length": "3:56",
+  "album": {
+    "$oid": "650b243bc30eaef9a16a8475"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8481"
+  },
+  "songTitle": "Replicant",
+  "length": "3:53",
+  "album": {
+    "$oid": "650b243bc30eaef9a16a8475"
+  }
+},
+{
+  "_id": {
+    "$oid": "650b2187c30eaef9a16a8483"
+  },
+  "songTitle": "Exodus",
+  "length": "4:43",
+  "album": {
+    "$oid": "650b243bc30eaef9a16a8475"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6c623b72ed799f31f090"
+  },
+  "songTitle": "Downtime",
+  "length": "3:28",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6d143b72ed799f31f093"
+  },
+  "songTitle": "Beauty Queen",
+  "length": "2:52",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6d673b72ed799f31f094"
+  },
+  "songTitle": "Lose My Cool",
+  "length": "3:00",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6d883b72ed799f31f095"
+  },
+  "songTitle": "Ocean of Drugs",
+  "length": "3:23",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6d9d3b72ed799f31f096"
+  },
+  "songTitle": "Psychadelic Girl",
+  "length": "3:13",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6dc33b72ed799f31f097"
+  },
+  "songTitle": "Cupids Got A Shotgun",
+  "length": "4:46",
+  "album": {
+    "$oid": "6509c10369d2929cf44f3efd"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6e333b72ed799f31f09a"
+  },
+  "songTitle": "Judas",
+  "length": "4:09",
+  "album": {
+    "$oid": "650c3e803b72ed799f31f086"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6e493b72ed799f31f09b"
+  },
+  "songTitle": "Bloody Mary",
+  "length": "4:04",
+  "album": {
+    "$oid": "650c3e803b72ed799f31f086"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6e653b72ed799f31f09c"
+  },
+  "songTitle": "Marry The Night",
+  "length": "4:24",
+  "album": {
+    "$oid": "650c3e803b72ed799f31f086"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6eb03b72ed799f31f09f"
+  },
+  "songTitle": "Bad Romance",
+  "length": "4:54",
+  "album": {
+    "$oid": "650c3f0f3b72ed799f31f087"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6efa3b72ed799f31f0a1"
+  },
+  "songTitle": "Telephone",
+  "length": "3:40",
+  "album": {
+    "$oid": "650c3f0f3b72ed799f31f087"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6f413b72ed799f31f0a2"
+  },
+  "songTitle": "Paparazzi",
+  "length": "3:28",
+  "album": {
+    "$oid": "650c3f0f3b72ed799f31f087"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6f553b72ed799f31f0a3"
+  },
+  "songTitle": "Poker Face",
+  "length": "3:57",
+  "album": {
+    "$oid": "650c3f0f3b72ed799f31f087"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6fd03b72ed799f31f0a6"
+  },
+  "songTitle": "Plankton",
+  "length": "3:18",
+  "album": {
+    "$oid": "650c3f2c3b72ed799f31f088"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c6feb3b72ed799f31f0a7"
+  },
+  "songTitle": "Bathed in Sound",
+  "length": "2:19",
+  "album": {
+    "$oid": "650c3f2c3b72ed799f31f088"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c70393b72ed799f31f0aa"
+  },
+  "songTitle": "Linger Longer",
+  "length": "5:36",
+  "album": {
+    "$oid": "650c3f993b72ed799f31f089"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c70543b72ed799f31f0ab"
+  },
+  "songTitle": "Wriggle",
+  "length": "4:28",
+  "album": {
+    "$oid": "650c3f993b72ed799f31f089"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c70663b72ed799f31f0ac"
+  },
+  "songTitle": "Come Along",
+  "length": "4:18",
+  "album": {
+    "$oid": "650c3f993b72ed799f31f089"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c70863b72ed799f31f0ad"
+  },
+  "songTitle": "Solar Waltz",
+  "length": "5:38",
+  "album": {
+    "$oid": "650c3f993b72ed799f31f089"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c70e73b72ed799f31f0af"
+  },
+  "songTitle": "Survival",
+  "length": "4:17",
+  "album": {
+    "$oid": "650c3faf3b72ed799f31f08a"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c71373b72ed799f31f0b0"
+  },
+  "songTitle": "Madness",
+  "length": "4:41",
+  "album": {
+    "$oid": "650c3faf3b72ed799f31f08a"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c71d63b72ed799f31f0b8"
+  },
+  "songTitle": "Uprising",
+  "length": "5:04",
+  "album": {
+    "$oid": "650c3fe43b72ed799f31f08b"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c71ec3b72ed799f31f0b9"
+  },
+  "songTitle": "Undisclosed Desires",
+  "length": "3:55",
+  "album": {
+    "$oid": "650c3fe43b72ed799f31f08b"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c721d3b72ed799f31f0ba"
+  },
+  "songTitle": "Unnatural Selection",
+  "length": "6:54",
+  "album": {
+    "$oid": "650c3fe43b72ed799f31f08b"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c723b3b72ed799f31f0bb"
+  },
+  "songTitle": "Resistance",
+  "length": "5:46",
+  "album": {
+    "$oid": "650c3fe43b72ed799f31f08b"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c72b13b72ed799f31f0be"
+  },
+  "songTitle": "Time is Running Out",
+  "length": "3:57",
+  "album": {
+    "$oid": "650c40083b72ed799f31f08c"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c72e63b72ed799f31f0c0"
+  },
+  "songTitle": "Falling Away With You",
+  "length": "4:40",
+  "album": {
+    "$oid": "650c40083b72ed799f31f08c"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c73033b72ed799f31f0c1"
+  },
+  "songTitle": "Thoughts of a Dying Athiest",
+  "length": "3:07",
+  "album": {
+    "$oid": "650c40083b72ed799f31f08c"
+  }
+},
+{
+  "_id": {
+    "$oid": "650c73173b72ed799f31f0c2"
+  },
+  "songTitle": "Butterflies and Hurricanes",
+  "length": "5:01",
+  "album": {
+    "$oid": "650c40083b72ed799f31f08c"
+  }
+}]
